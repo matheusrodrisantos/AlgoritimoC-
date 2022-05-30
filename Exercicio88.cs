@@ -31,9 +31,8 @@ namespace ConsoleApp1
                         if (x>0)
                         {
                             numeros[n] = x;
-                            break;
                         }
-                    }while(x>0);
+                    }while(x<0);
                 }
                 Console.WriteLine("Entre com um numero inteiro positivo");
             }
